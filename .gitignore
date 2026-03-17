@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+__pycache__/
+*.pyc
+*.log
+
+# Test output
+test_output/
+
+# Dist executables (but keep the zip)
+dist/*.exe
+
+# Misc extraction/debug files
+*.manifest.txt
+*.xml.txt
+excel_output.txt
+import_sample_manifest.txt
+Invoice_Sample_manifest.txt
+read_excel.py
+read_excel2.py
+extract_xlsx.py
